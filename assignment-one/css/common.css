@@ -1,0 +1,57 @@
+/* line 1, ../sass/common.scss */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 9, ../sass/common.scss */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+/* line 13, ../sass/common.scss */
+ul li {
+  display: inline-block;
+  position: relative;
+}
+
+/* line 19, ../sass/common.scss */
+.icon_toggle {
+  background-color: red;
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+  text-align: center;
+  line-height: 30px;
+}
+
+/* line 31, ../sass/common.scss */
+nav {
+  display: none;
+  width: 300px;
+  background-color: powderblue;
+  padding: 10px;
+  display: none;
+}
+/* line 37, ../sass/common.scss */
+nav.active {
+  display: block;
+}
+/* line 41, ../sass/common.scss */
+nav ul li {
+  display: block;
+}
+/* line 43, ../sass/common.scss */
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  color: red;
+}

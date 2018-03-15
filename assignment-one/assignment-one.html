@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Toggle</title>
+	<link rel="stylesheet" href="css/common.css">
+</head>
+<body>	
+	<a href="javascript:void(0)" class="icon_toggle">&#9776;</a>
+
+	<nav class="nav_hide">
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+	</nav>
+
+	<!-- JS -->
+	<script type="text/javascript" src='js/jquery-1.12.0.min.js'></script>
+	<script>
+		$(".icon_toggle").on("click",function(){
+			$("nav").toggleClass('active');
+		});
+	</script>
+</body>
+</html>
